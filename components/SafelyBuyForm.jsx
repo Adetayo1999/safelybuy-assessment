@@ -82,7 +82,7 @@ const SafelyBuyForm = () => {
                 <label htmlFor='agreement' className='ml-2 text-xs'>
                   I agree to
                   <Link href='/'>
-                    <a className='text-blue-500 border-b border-blue-500'>
+                    <a className='text-purple-750 border-b border-purple-750'>
                       {" "}
                       Terms & conditions
                     </a>

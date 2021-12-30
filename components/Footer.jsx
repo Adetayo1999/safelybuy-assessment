@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import { FaFacebookF, FaInstagramSquare, FaTwitter } from "react-icons/fa";
+import { FaFacebookF, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -22,7 +22,7 @@ const Footer = () => {
           />
         </div>
         <div className='md:mr-10 md:w-2/6 mb-6 md:mb-0 '>
-          <button className='bg-green-600 text-gray-100 rounded  flex justify-center items-center text-xs p-3 w-40 mb-4'>
+          <button className='bg-green-650 text-gray-100 rounded  flex justify-center items-center text-xs p-3 w-40 mb-4'>
             Refer a friend
           </button>
           <p className='text-xs font-semibold text-gray-700'>
@@ -37,8 +37,17 @@ const Footer = () => {
           >
             <FaFacebookF />
           </div>
-          <div className='mr-3 p-2  bg-red-200' style={{ borderRadius: "50%" }}>
-            <FaInstagramSquare className='bg-ig' />
+          <div
+            className='mr-3  h-9 w-9 flex justify-center items-center  bg-red-150'
+            style={{ borderRadius: "50%" }}
+          >
+            {/* <FaInstagramSquare className='bg-ig' /> */}
+            <Image
+              width={20}
+              height={20}
+              alt='Safelybuy Instagram'
+              src='/images/ig.png'
+            />
           </div>
           <div
             className='mr-3 p-2 text-blue-500 bg-blue-200'

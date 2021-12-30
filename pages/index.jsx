@@ -16,10 +16,10 @@ function index() {
       </Head>
       <div className='pt-10'>
         <div className='flex justify-center items-center'>
-          <h1 className='text-blue-400 font-mono text-3xl tracking-tighter font-bold pr-4  border-r mr-4 border-blue-500'>
+          <h1 className='text-purple-750  font-mono text-3xl tracking-tighter font-bold pr-4  border-r mr-4 border-purple-750'>
             Safelybuy
           </h1>
-          <span className='text-blue-300 text-xs font-semibold'>
+          <span className='text-purple-450 text-xs font-semibold'>
             SELLER CENTER
           </span>
         </div>
@@ -30,7 +30,7 @@ function index() {
               Already have an account?
             </span>{" "}
             <Link href='/'>
-              <a className='text-blue-500'>Sign in</a>
+              <a className='text-purple-750 font-semibold'>Sign in</a>
             </Link>
           </p>
         </div>

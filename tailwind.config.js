@@ -8,6 +8,18 @@ module.exports = {
       backgroundImage: () => ({
         ig: "linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5)",
       }),
+      colors: {
+        purple: {
+          750: "#8069f6",
+          450: "#baadf9",
+        },
+        green: {
+          650: "#6cbc7d",
+        },
+        red: {
+          150: "#e8d8e2",
+        },
+      },
     },
   },
   plugins: [],
