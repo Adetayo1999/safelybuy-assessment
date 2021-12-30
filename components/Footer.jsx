@@ -4,7 +4,7 @@ import { FaFacebookF, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className='py-10 px-3 bg-gray-200'>
+    <div className='py-10 px-3 bg-gray-150'>
       <div className='w-4/5 mx-auto flex flex-col md:flex-row md:justify-between md:items-center'>
         <div className='flex  md:justify-around  mb-6 md:mb-0 md:mr-10'>
           <Image
@@ -32,7 +32,7 @@ const Footer = () => {
         </div>
         <div className='flex md:justify-center items-center'>
           <div
-            className='mr-3 p-2 text-blue-800 bg-blue-200'
+            className='mr-3 p-2 text-blue-800 bg-blue-150'
             style={{ borderRadius: "50%" }}
           >
             <FaFacebookF />

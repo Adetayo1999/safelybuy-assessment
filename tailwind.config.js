@@ -19,6 +19,12 @@ module.exports = {
         red: {
           150: "#e8d8e2",
         },
+        blue: {
+          150: "#d9dce5",
+        },
+        gray: {
+          150: "#f2f2f2",
+        },
       },
     },
   },
